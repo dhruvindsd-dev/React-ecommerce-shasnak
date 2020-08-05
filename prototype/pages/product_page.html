@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bulma.min.css" />
+    <link rel="stylesheet" href="icons/css/all.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    .notification {
+      min-height: 200px;
+    }
+    img {
+      background-position: center;
+      background-size: cover;
+      object-fit: cover;
+    }
+    .padding {
+      padding: 10px;
+    }
+  </style>
+  <body style="font-family: 'Roboto', sans-serif;">
+    <nav class="navbar is-light">
+      <div class="navbar-brand">
+        <a class="navbar-item is-size-3 has-text-weight-semibold">
+          HOMEGLARE
+        </a>
+        <div
+          class="navbar-burger burger"
+          data-target="navbarExampleTransparentExample"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="">
+            Home
+          </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Catagory
+            </a>
+            <div class="navbar-dropdown is-boxed">
+              <a href="" class="navbar-item">Some item</a>
+              <a href="" class="navbar-item">Some item</a>
+              <a href="" class="navbar-item">Some item</a>
+              <a href="" class="navbar-item">Some item</a>
+              <a href="" class="navbar-item">Some item</a>
+              <a href="" class="navbar-item">Some item</a>
+            </div>
+          </div>
+          <div class="navbar-item">
+            <div class="field has-addons">
+              <div class="control has-icons-left">
+                <input type="text" class="input" />
+                <span class="icon is-left"><i class="fas fa-search"></i></span>
+              </div>
+              <div class="control">
+                <div class="button is-primary">
+                  Search
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-end">
+          <a href="" class="navbar-item"
+            ><span>Login</span
+            ><span class="icon is-medium"><i class="fas fa-user"></i></span>
+          </a>
+          <a href="" class="navbar-item"
+            ><span class="icon is-large"
+              ><i class="fas fa-shopping-cart"></i></span
+          ></a>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- HERO START -->
+    <section
+      class="hero is-medium"
+      style="background-image: url('home-hero.jpg'); background-size: cover;"
+    >
+      <div class="hero-body">
+        <div class="container">
+          <p class="is-size-4 has-text-light">
+            Shop at the best prices
+          </p>
+          <p class="is-size-1 has-text-light has-text-weight-bold">CLEARANCE</p>
+          <p class="is-size-5 has-text-light less-opacity">Up to 75% off</p>
+          <br />
+          <a href="" class="button is-info is-rounded is-medium"> Shop Now</a>
+        </div>
+      </div>
+    </section>
+    <!-- HERO END -->
+    <section class="section">
+      <div class="tile is-ancestor">
+        <div class="tile is-parent">
+          <div class="tile is-child">
+            <figure class="image is-4by3">
+              <img src="home-hero.jpg" alt="" />
+              <div class="title is-relative padding">Test</div>
+            </figure>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <div class="tile is-child notification is-warning"></div>
+        </div>
+        <div class="tile is-parent">
+          <div class="tile is-child notification is-wa rning"></div>
+        </div>
+      </div>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent is-vertical">
+          <div class="tile is-child notification is-danger"></div>
+          <div class="tile is-child notification is-danger"></div>
+        </div>
+        <div class="tile is-parent">
+          <div class="tile is-child notification is-danger"></div>
+        </div>
+      </div>
+      <div class="tile is-ancestor">
+        <div class="tile is-parent is-6">
+          <div class="tile is-child notification is-link"></div>
+        </div>
+        <div class="tile is-6 is-flex-touch">
+          <div class="tile is-parent">
+            <div class="tile is-child notification is-link"></div>
+          </div>
+          <div class="tile is-parent">
+            <div class="tile is-child notification is-link"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

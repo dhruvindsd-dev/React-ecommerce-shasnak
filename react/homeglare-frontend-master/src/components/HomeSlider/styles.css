@@ -1,0 +1,41 @@
+.sliderarea {
+  display: inline;
+  position: relative;
+  width: 100vw;
+  height: 520px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.slide {
+  min-width: 100%;
+  position: relative;
+  height: 100%;
+  transition: 0.5s;
+}
+
+#left {
+  position: absolute;
+  /* top: 50%; */
+  left: 4rem;
+  transform: translate(-50%);
+  width: 5%;
+  height: 520px;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+#right {
+  position: absolute;
+  /* top: 50%; */
+  right: -4rem;
+  transform: translate(-50%);
+  width: 5%;
+  height: 520px;
+  background: none;
+  border: none;
+  outline: none;
+}

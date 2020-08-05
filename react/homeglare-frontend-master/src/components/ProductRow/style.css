@@ -1,0 +1,13 @@
+.product-row {
+  margin-top: 20px;
+  width: 100vw;
+  /* overflow-x: visible; */
+}
+.product-row h2 {
+  text-align: center;
+  color: #d20e14;
+}
+.products {
+  display: flex;
+  width: 100vw;
+}

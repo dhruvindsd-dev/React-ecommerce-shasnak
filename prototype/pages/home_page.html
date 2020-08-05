@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      Product
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="stylesheet" href="bulma.min.css" />
+    <link rel="stylesheet" href="icons/css/all.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <style>
+    img {
+      object-fit: cover;
+      object-position: bottom;
+      transition: 0.3s ease;
+    }
+    img:hover {
+      transform: scale(1.15);
+    }
+    figure {
+      overflow: hidden !important;
+      object-fit: contain;
+    }
+    .hover-shadow {
+      transition: 0.3s;
+    }
+    .hover-shadow:hover {
+      box-shadow: 11px 8px 52px rgba(18, 18, 18, 0.35);
+    }
+    .less-opacity {
+      opacity: 0.5;
+    }
+    .title-bottom {
+      border-bottom: 2px solid rgba(94, 94, 94, 0.349);
+    }
+  </style>
+
+  <body class="has-background-light">
+    <!--  NAVBAR START  -->
+    <nav class="navbar is-light">
+      <div class="navbar-brand">
+        <a class="navbar-item is-size-3 has-text-weight-semibold">
+          HOMEGLARE
+        </a>
+        <div
+          class="navbar-burger burger"
+          data-target="navbarExampleTransparentExample"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="">
+            Home
+          </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Catagory
+            </a>
+            <div class="navbar-dropdown is-boxed">
+              <a href="" class="navbar-item">Some item</a>
+              <a href="" class="navbar-item">Some item</a>
+              <a href="" class="navbar-item">Some item</a>
+              <a href="" class="navbar-item">Some item</a>
+              <a href="" class="navbar-item">Some item</a>
+              <a href="" class="navbar-item">Some item</a>
+            </div>
+          </div>
+          <div class="navbar-item">
+            <div class="field has-addons">
+              <div class="control has-icons-left">
+                <input type="text" class="input" />
+                <span class="icon is-left"><i class="fas fa-search"></i></span>
+              </div>
+              <div class="control">
+                <div class="button is-primary">
+                  Search
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-end">
+          <a href="" class="navbar-item"
+            ><span>Login</span
+            ><span class="icon is-medium"><i class="fas fa-user"></i></span>
+          </a>
+          <a href="" class="navbar-item"
+            ><span class="icon is-large"
+              ><i class="fas fa-shopping-cart"></i></span
+          ></a>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- HERO START -->
+    <section
+      class="hero is-medium"
+      style="background-image: url('home-hero.jpg'); background-size: cover;"
+    >
+      <div class="hero-body">
+        <div class="container">
+          <p class="is-size-4 has-text-light">
+            Shop at the best prices
+          </p>
+          <p class="is-size-1 has-text-light has-text-weight-bold">CLEARANCE</p>
+          <p class="is-size-5 has-text-light less-opacity">Up to 75% off</p>
+          <br />
+          <a href="" class="button is-info is-rounded is-medium"> Shop Now</a>
+        </div>
+      </div>
+    </section>
+    <!-- HERO END -->
+
+    <div class="columns section">
+      <!-- FILTER COLUMN START-->
+      <div class="column is-2">
+        <p class="title">different filters</p>
+        <p class="subtitle">
+          Ill be adding this once i get to know what product data i have
+        </p>
+      </div>
+      <!-- FILTER COLUMN END -->
+      <div class="column is-10">
+        <div class="section">
+          <p class="title has-text-centered">
+            <span class="title-bottom">Top Deals</span>
+          </p>
+          <div class="columns is-mobile">
+            <div class="column">
+              <div class="columns">
+                <div class="column">
+                  <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img
+                          src="http://homeglare.com/images/media/2020/04/TcDIU07710.jpg"
+                          alt=""
+                        />
+                      </figure>
+                    </div>
+                    <div class="hover-shadow">
+                      <div class="card-content">
+                        <div class="">
+                          <p class="is-size-4 has-text-weight-medium">
+                            Product Name
+                          </p>
+                          <p class="is-size-6">Price</p>
+                          <span class="is-size-7"
+                            ><span class="less-opacity">Rating :</span>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="far fa-star has-text-warning"></i
+                          ></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img
+                          src="http://homeglare.com/images/media/2020/04/TcDIU07710.jpg"
+                          alt=""
+                        />
+                      </figure>
+                    </div>
+                    <div class="hover-shadow">
+                      <div class="card-content">
+                        <div class="">
+                          <p class="is-size-4 has-text-weight-medium">
+                            Product Name
+                          </p>
+                          <p class="is-size-6">Price</p>
+                          <span class="is-size-7"
+                            ><span class="less-opacity">Rating :</span>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="far fa-star has-text-warning"></i
+                          ></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="columns">
+                <div class="column">
+                  <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img
+                          src="http://homeglare.com/images/media/2020/04/VeVK307308.jpg"
+                          alt=""
+                        />
+                      </figure>
+                    </div>
+                    <div class="hover-shadow">
+                      <div class="card-content">
+                        <div class="">
+                          <p class="is-size-4 has-text-weight-medium">
+                            Product Name
+                          </p>
+                          <p class="is-size-6">Price</p>
+                          <span class="is-size-7"
+                            ><span class="less-opacity">Rating :</span>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="far fa-star has-text-warning"></i
+                          ></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img
+                          src="http://homeglare.com/images/media/2020/04/VeVK307308.jpg"
+                          alt=""
+                        />
+                      </figure>
+                    </div>
+                    <div class="hover-shadow">
+                      <div class="card-content">
+                        <div class="">
+                          <p class="is-size-4 has-text-weight-medium">
+                            Product Name
+                          </p>
+                          <p class="is-size-6">Price</p>
+                          <span class="is-size-7"
+                            ><span class="less-opacity">Rating :</span>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="far fa-star has-text-warning"></i
+                          ></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <p class="title has-text-centered">
+            <span class="title-bottom">Trending products</span>
+          </p>
+          <div class="columns is-mobile">
+            <div class="column">
+              <div class="columns">
+                <div class="column">
+                  <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img
+                          src="http://homeglare.com/images/media/2020/04/YGLgt07209.jpg"
+                          alt=""
+                        />
+                      </figure>
+                    </div>
+                    <div class="hover-shadow">
+                      <div class="card-content">
+                        <div class="">
+                          <p class="is-size-4 has-text-weight-medium">
+                            Product Name
+                          </p>
+                          <p class="is-size-6">Price</p>
+                          <span class="is-size-7"
+                            ><span class="less-opacity">Rating :</span>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="far fa-star has-text-warning"></i
+                          ></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img
+                          src="http://homeglare.com/images/media/2020/04/YGLgt07209.jpg"
+                          alt=""
+                        />
+                      </figure>
+                    </div>
+                    <div class="hover-shadow">
+                      <div class="card-content">
+                        <div class="">
+                          <p class="is-size-4 has-text-weight-medium">
+                            Product Name
+                          </p>
+                          <p class="is-size-6">Price</p>
+                          <span class="is-size-7"
+                            ><span class="less-opacity">Rating :</span>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="far fa-star has-text-warning"></i
+                          ></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="columns">
+                <div class="column">
+                  <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img
+                          src="http://homeglare.com/images/media/2020/04/929Hm07110.jpg"
+                          alt=""
+                        />
+                      </figure>
+                    </div>
+                    <div class="hover-shadow">
+                      <div class="card-content">
+                        <div class="">
+                          <p class="is-size-4 has-text-weight-medium">
+                            Product Name
+                          </p>
+                          <p class="is-size-6">Price</p>
+                          <span class="is-size-7"
+                            ><span class="less-opacity">Rating :</span>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="far fa-star has-text-warning"></i
+                          ></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img
+                          src="http://homeglare.com/images/media/2020/04/929Hm07110.jpg"
+                          alt=""
+                        />
+                      </figure>
+                    </div>
+                    <div class="hover-shadow">
+                      <div class="card-content">
+                        <div class="">
+                          <p class="is-size-4 has-text-weight-medium">
+                            Product Name
+                          </p>
+                          <p class="is-size-6">Price</p>
+                          <span class="is-size-7"
+                            ><span class="less-opacity">Rating :</span>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="far fa-star has-text-warning"></i
+                          ></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <p class="title has-text-centered">
+            <span class="title-bottom">Best Selling Products</span>
+          </p>
+          <div class="columns is-mobile">
+            <div class="column">
+              <div class="columns">
+                <div class="column">
+                  <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img
+                          src="http://homeglare.com/images/media/2020/04/rnQHB08810.jpg"
+                          alt=""
+                        />
+                      </figure>
+                    </div>
+                    <div class="hover-shadow">
+                      <div class="card-content">
+                        <div class="">
+                          <p class="is-size-4 has-text-weight-medium">
+                            Product Name
+                          </p>
+                          <p class="is-size-6">Price</p>
+                          <span class="is-size-7"
+                            ><span class="less-opacity">Rating :</span>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="far fa-star has-text-warning"></i
+                          ></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img
+                          src="http://homeglare.com/images/media/2020/04/rnQHB08810.jpg"
+                          alt=""
+                        />
+                      </figure>
+                    </div>
+                    <div class="hover-shadow">
+                      <div class="card-content">
+                        <div class="">
+                          <p class="is-size-4 has-text-weight-medium">
+                            Product Name
+                          </p>
+                          <p class="is-size-6">Price</p>
+                          <span class="is-size-7"
+                            ><span class="less-opacity">Rating :</span>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="far fa-star has-text-warning"></i
+                          ></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="columns">
+                <div class="column">
+                  <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img
+                          src="http://homeglare.com/images/media/2020/04/t1mIs06912.jpg"
+                          alt=""
+                        />
+                      </figure>
+                    </div>
+                    <div class="hover-shadow">
+                      <div class="card-content">
+                        <div class="">
+                          <p class="is-size-4 has-text-weight-medium">
+                            Product Name
+                          </p>
+                          <p class="is-size-6">Price</p>
+                          <span class="is-size-7"
+                            ><span class="less-opacity">Rating :</span>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="far fa-star has-text-warning"></i
+                          ></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column">
+                  <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img
+                          src="http://homeglare.com/images/media/2020/04/t1mIs06912.jpg"
+                          alt=""
+                        />
+                      </figure>
+                    </div>
+                    <div class="hover-shadow">
+                      <div class="card-content">
+                        <div class="">
+                          <p class="is-size-4 has-text-weight-medium">
+                            Product Name
+                          </p>
+                          <p class="is-size-6">Price</p>
+                          <span class="is-size-7"
+                            ><span class="less-opacity">Rating :</span>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="fas fa-star has-text-warning"></i>
+                            <i class="far fa-star has-text-warning"></i
+                          ></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        // Get all "navbar-burger" elements
+        const $navbarBurgers = Array.prototype.slice.call(
+          document.querySelectorAll(".navbar-burger"),
+          0
+        );
+
+        // Check if there are any navbar burgers
+        if ($navbarBurgers.length > 0) {
+          // Add a click event on each of them
+          $navbarBurgers.forEach((el) => {
+            el.addEventListener("click", () => {
+              // Get the target from the "data-target" attribute
+              const target = el.dataset.target;
+              const $target = document.getElementById(target);
+
+              // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+              el.classList.toggle("is-active");
+              $target.classList.toggle("is-active");
+            });
+          });
+        }
+      });
+    </script>
+  </body>
+</html>

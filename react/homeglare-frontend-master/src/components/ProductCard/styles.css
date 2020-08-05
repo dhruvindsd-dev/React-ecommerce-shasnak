@@ -1,0 +1,11 @@
+.single-product {
+  width: 22rem;
+  height: 34rem;
+  margin: 20px 10px;
+}
+.product-img {
+  width: initial;
+}
+.product-img img {
+  width: 22rem;
+}

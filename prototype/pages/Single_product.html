@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bulma.min.css" />
+    <link rel="stylesheet" href="icons/css/all.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    .button {
+      /* margin: 5px; */
+    }
+    .less-opacity {
+      opacity: 0.6;
+    }
+  </style>
+  <body class="has-background-light">
+    <!-- NAVBAR START  -->
+    <nav class="navbar is-light">
+      <div class="navbar-brand">
+        <a class="navbar-item is-size-3 has-text-weight-semibold">
+          HOMEGLARE
+        </a>
+        <div
+          class="navbar-burger burger"
+          data-target="navbarExampleTransparentExample"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item" href="">
+            Home
+          </a>
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Catagory
+            </a>
+            <div class="navbar-dropdown is-boxed">
+              <a href="" class="navbar-item">Some item</a>
+              <a href="" class="navbar-item">Some item</a>
+              <a href="" class="navbar-item">Some item</a>
+              <a href="" class="navbar-item">Some item</a>
+              <a href="" class="navbar-item">Some item</a>
+              <a href="" class="navbar-item">Some item</a>
+            </div>
+          </div>
+          <div class="navbar-item">
+            <div class="field has-addons">
+              <div class="control has-icons-left">
+                <input type="text" class="input" />
+                <span class="icon is-left"><i class="fas fa-search"></i></span>
+              </div>
+              <div class="control">
+                <div class="button is-primary">
+                  Search
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="navbar-end">
+          <a href="" class="navbar-item"
+            ><span>Login</span
+            ><span class="icon is-medium"><i class="fas fa-user"></i></span>
+          </a>
+          <a href="" class="navbar-item"
+            ><span class="icon is-large"
+              ><i class="fas fa-shopping-cart"></i></span
+          ></a>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+    <div class="section">
+      <div class="columns">
+        <div class="column is-5">
+          <figure class="image is-4by3">
+            <img
+              src="http://homeglare.com/images/media/2020/04/YGLgt07209.jpg"
+              alt=""
+            />
+          </figure>
+        </div>
+        <div class="column is-4">
+          <div class="section">
+            <p>
+              <span class="title">Product Description</span> <br />
+              <span class="is-size-7 less-opacity">By homeglare</span>
+              <span class="is-size-7" style="float: right;"
+                ><span class="less-opacity">Rating :</span>
+                <i class="fas fa-star has-text-warning"></i>
+                <i class="fas fa-star has-text-warning"></i>
+                <i class="fas fa-star has-text-warning"></i>
+                <i class="fas fa-star has-text-warning"></i>
+                <i class="far fa-star has-text-warning"></i>
+              </span>
+              <br />
+            </p>
+            <p class="is-size-4">
+              <span class="is-size-7">Mrp : <strike>₹97000</strike></span>
+              <br />
+              <span class="is-size-5">Price : </span>₹1000
+            </p>
+            <br />
+            <p class="content">
+              <span class="is-size-7 less-opacity">Product Description : </span>
+              <br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+              neque impedit.
+            </p>
+            <hr />
+            <p>
+              <span class="is-size-7"
+                ><strong>Availability : </strong> In stock
+              </span>
+              <br />
+              <span class="is-size-7">
+                <strong>Delivery :</strong>
+                Usually delivered in 5-10 days
+              </span>
+              <br />
+              <br />
+              <a href="" class="button is-link">Buy Now </a>
+              <a href="" class="button is-link"
+                ><span class="icon is-size-7"
+                  ><i class="fas fa-shopping-cart"></i
+                ></span>
+                <span>Add to cart</span></a
+              >
+            </p>
+          </div>
+        </div>
+        <div class="column is-3">
+          <div class="section">
+            <p class="is-size-5">
+              <strong>Specifications</strong>
+            </p>
+            <br />
+            <p class="is-size-6"><strong>Brand Name : </strong> Jony</p>
+            <p class="is-size-6"><strong>Weight: </strong> 00 grams</p>
+            <br />
+            <br />
+            <p class="is-size-5">
+              <strong>Reviews</strong>
+            </p>
+            <ul style="list-style-type: disc; list-style-position: inside;">
+              <li>review1</li>
+              <li>review2</li>
+              <li>review3</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" style="padding-top: 0;">
+      <p class="title has-text-centered">Related Products</p>
+      <div class="columns is-mobile">
+        <div class="column">
+          <div class="columns">
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img
+                      src="http://homeglare.com/images/media/2020/04/t1mIs06912.jpg"
+                      alt="Placeholder image"
+                    />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="">
+                    <p class="is-size-4 has-text-weight-medium">Name</p>
+                    <p class="is-size-6">Price</p>
+                    <p class="is-size-7">Product quality</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img
+                      src="http://homeglare.com/images/media/2020/04/t1mIs06912.jpg"
+                      alt="Placeholder image"
+                    />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="">
+                    <p class="is-size-4 has-text-weight-medium">Name</p>
+                    <p class="is-size-6">Price</p>
+                    <p class="is-size-7">Product quality</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="columns">
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img
+                      src="http://homeglare.com/images/media/2020/04/t1mIs06912.jpg"
+                      alt="Placeholder image"
+                    />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="">
+                    <p class="is-size-4 has-text-weight-medium">Name</p>
+                    <p class="is-size-6">Price</p>
+                    <p class="is-size-7">Product quality</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <img
+                      src="http://homeglare.com/images/media/2020/04/t1mIs06912.jpg"
+                      alt="Placeholder image"
+                    />
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="">
+                    <p class="is-size-4 has-text-weight-medium">Name</p>
+                    <p class="is-size-6">Price</p>
+                    <p class="is-size-7">Product quality</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
